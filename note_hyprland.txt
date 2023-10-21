@@ -1,0 +1,18 @@
+# pacman
+sudo pacman -S linux-headers libva qt5-wayland gt5ct qt6-wayland qt6ct qt5-svg qt5-quickcontrols2 qt5-graphicaleffects gtk3 pol-kit-gnome pipewire jq wl-clipboard cliphist python-requests pacman-contrib
+sudo pacman -S git brightnessctl grim slurp swappy base-devel fd neofetch firefox helix nano thunar thunar-archive-plugin
+sudo pacman -S hyprland kitty mako waybar wofi xdg-desktop-portal-hyprland
+sudo pacman -S bluez bluez-utils blueman network-manager-applet lxappearance xfce4-settings
+
+
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+cd
+
+# yay
+yay -S nwg-look-bin nordic-theme swaylock-effects swww wlogout
+
+# fonts
+sudo pacman -S ttf-fira-code noto-fonts-cjk
+
